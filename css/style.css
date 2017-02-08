@@ -117,6 +117,11 @@ a:hover {
     color: #343434;
 }
 
+.btnsItems:hover {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
 a:focus { outline: none; }
 
 img {
@@ -1210,8 +1215,10 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
     position: relative;
     overflow: hidden;
     margin-bottom: 20px;
+    margin-left:auto;
+    margin-right:auto;
     height: 190px;
-    width: 100%;
+    width: 200px;
     padding: 0;
     border: 1px solid transparent;
     -webkit-border-radius: 7px;
@@ -1262,7 +1269,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
     width: 100%;
     color: #fff;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     background: rgba(52, 52, 52, .7);
     z-index: 10;
@@ -2237,7 +2244,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 #main-wrapper .all-menu-details .details h6 {
     padding: 5px 0 10px 0;
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 #main-wrapper .all-menu-details .details h6:hover a {
@@ -5105,6 +5112,14 @@ h5 a:hover { color: #666; }
     text-align:left;
 }
 
+.btnCarroCompra{
+    margin-top:15px;
+    margin-right:10px;
+    height:34px;
+    background-color:#423d3d;
+}
 
 
-
+.itemMontoDesc{
+    text-decoration: line-through;
+}
