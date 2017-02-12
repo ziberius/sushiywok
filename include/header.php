@@ -33,11 +33,9 @@
                     <a class="navbar-brand" href="#">
                         <img src="img/header-logo.png" alt="TakeAway">							
                     </a>						
-                </div>
-                <div class="visible-xs visible-sm ">
-                    <button class="btn btnCarroCompra" data-toggle="tooltip" title="Abrir Carro de Compras" id="abrirCarro" type="button">
-                        <i class="fa fa-inverse fa-shopping-cart" aria-hidden="true"></i>
-                    </button>
+                    <button class="visible-xs visible-sm btn btnCarroCompra center-block" data-toggle="tooltip" title="Abrir Carro de Compras" id="abrirCarro" type="button">
+                        <img class="img-responsive" style="max-height:30px" src="../img/content/carrito.png" alt="Carro de compras" />
+                    </button>  
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
