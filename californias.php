@@ -607,11 +607,14 @@
                                                     </div>
                                                     <div class="panel-footer">
                                                         <div class="row">
-                                                            <div class="col-md-6 col-sm-6">
+                                                            <div class="col-xs-6 col-md-6 col-sm-6">
                                                                 <span>Total a pagar:</span>
                                                             </div>
-                                                            <div class="col-md-5 col-sm-5 text-right">
-                                                                $<span id="totalCarro">0</span>
+                                                            <div class="col-xs-3 col-md-3 col-sm-3 text-right">
+                                                                $<span class="itemMontoDesc totalCarroDesc">0</span>
+                                                            </div>                                                            
+                                                            <div class="col-xs-3 col-md-3 col-sm-3 text-right">
+                                                                $<span id="totalCarro" class="totalCarro">0</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -722,11 +725,14 @@
                             </div>
                             <div class="panel-footer">
                                 <div class="row">
-                                    <div class="col-md-6 col-sm-6">
-                                        <span>Total a pagar:</span>
+                                    <div class="col-xs-4 col-md-6 col-sm-4">
+                                        <span>Total:</span>
                                     </div>
-                                    <div class="col-md-5 col-sm-5 text-right">
-                                        $<span id="totalCarroModal">0</span>
+                                    <div class="col-xs-4 col-md-3 col-sm-4 text-right">
+                                        $<span class="itemMontoDesc totalCarroDesc">0</span>
+                                    </div>                                                            
+                                    <div class="col-xs-4 col-md-3 col-sm-4 text-right">
+                                        $<span class="totalCarro">0</span>
                                     </div>
                                 </div>
                             </div>
