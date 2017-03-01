@@ -35,6 +35,7 @@
                     </a>						
                     <button class="visible-xs visible-sm btn btnCarroCompra center-block" data-toggle="tooltip" title="Abrir Carro de Compras" id="abrirCarro" type="button">
                         <img class="img-responsive" style="max-height:30px" src="../img/content/carrito.png" alt="Carro de compras" />
+                        <input disabled type="text" id="contadorItems" class="contadorItems" value="0" />
                     </button>  
                 </div>
                 <!-- Collect the nav links, forms, and other content for toggling -->

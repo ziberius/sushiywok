@@ -1009,17 +1009,21 @@
         $(".carroCompras").on('click', 'a', function () {
             var citem = $(this).parent().parent().find(".cantidadItem");
             var precio = $(this).parent().parent().find(".itemMonto");
+            var precioDesc = $(this).parent().parent().parent().find(".itemMontoDesc");
             var precioInd = Number(precio.text()) / Number(citem.text());
             var precioNuevo = 0;
             if ($(this).hasClass("itemAgregar")) {
                 precioNuevo = Number(precio.text()) + precioInd;
                 actualizarTotalCarro("sumar", precioInd);
                 precio.text(precioNuevo);
+                precioDesc.text(precioNuevo*2);
                 citem.text(Number(citem.text()) + 1);
+                $("#contadorItems").val(Number($("#contadorItems").val())+1);
                 guardarCarroSesion();
             }
             if ($(this).hasClass("itemQuitar")) {
                 actualizarTotalCarro("restar", precioInd);
+                $("#contadorItems").val(Number($("#contadorItems").val())-1);
                 if (Number(citem.text()) === 1) {
                     $(this).parent().parent().fadeOut(500, function () {
                         $(this).remove();
@@ -1028,16 +1032,21 @@
                 } else {
                     precioNuevo = Number(precio.text()) - precioInd;
                     precio.text(precioNuevo);
+                    precioDesc.text(precioNuevo*2);
                     citem.text(Number(citem.text()) - 1);
                     guardarCarroSesion();
                 }
             }
             if ($(this).hasClass("itemEliminar")) {
+                $("#contadorItems").val(Number($("#contadorItems").val())-Number(citem.text()));
                 actualizarTotalCarro("restar", Number(precio.text()));
+                $(this).parent().parent().prev().fadeOut(500, function () {
+                    $(this).remove();
+                });
                 $(this).parent().parent().fadeOut(500, function () {
                     $(this).remove();
                     guardarCarroSesion();
-                });
+                });                
             }
 
 
@@ -1049,6 +1058,7 @@
             precio = precio.replace('.', '');
             $(".sinItems").slideUp();
             $(".carroCompras").append(getItem($(this).text(), Number(precio)));
+            $("#contadorItems").val(Number($("#contadorItems").val())+1);
             actualizarTotalCarro("sumar", Number(precio));
             guardarCarroSesion();
             showMessage($(this).text() + " agregado al carro de compras.");
@@ -1056,22 +1066,41 @@
 
         function actualizarTotalCarro(operacion, monto) {
             var total = Number($("#totalCarro").text());
+            var nuevo;
             if (operacion === "sumar") {
-                $("#totalCarro").text(total + monto);
-                $("#totalCarroModal").text(total + monto);
-            } else if (operacion === "restar") {
-                $("#totalCarro").text(total - monto);
-                $("#totalCarroModal").text(total - monto);
+                nuevo = total + monto;
+                $(".totalCarro").text(nuevo);
+                //$("#totalCarroModal").text(total + monto);
+            } else if (operacion === "restar") {        
+                nuevo = total - monto;      
+                $(".totalCarro").text(nuevo);
+                //$("#totalCarroModal").text(total - monto);
             }
+            $(".totalCarroDesc").text(nuevo*2);
+            //$("#totalCarroDescModal").text(Number($("#totalCarro").text())*2);
         }
         ;
 
         function getItem(nombre, monto) {
-            var item = '<div class="row itemCarro"> <div class="col-md-12"> <span>' + nombre + '</span>\n\
-                     </div> <div class="col-xs-1 col-md-1 col-sm-1"> <a class="itemQuitar"><i class="fa fa-minus-circle" aria-hidden="true"></i></a> </div>\n\
-                     <div class="col-xs-1 col-md-1 col-sm-1"> <span class="cantidadItem">1</span> </div> <div class="col-xs-1 col-md-1 col-sm-1"> \n\
-                    <a class="itemAgregar"><i class="fa fa-plus-circle" aria-hidden="true"></i></a> </div> <div class="col-xs-1 col-md-1 col-sm-1"> \n\
-                    <a class="itemEliminar"><i class="fa fa-trash-o" aria-hidden="true"></i></a> </div> <div class="col-xs-7 col-md-7 col-sm-7 text-right"> $<span class="itemMonto">' + monto + '</span> </div> </div>';
+            var item = '<div class="row itemCarro"> \n\
+                            <div class="col-xs-9 col-sm-8 col-md-8"> \n\
+                                <span>' + nombre + '</span>\n\
+                            </div>\n\
+                            <div class="col-xs-3 col-md-4 col-sm-4 text-right"> \n\
+                                $<span class="itemMontoDesc">' + Number(monto)*2 + '</span> \n\
+                            </div>\n\
+                        </div> \n\
+                        <div class=row itemCarro">\n\
+                            <div class="col-xs-6 col-md-4 col-sm-4"> \n\
+                                <a class="itemEspacioRight itemQuitar"><i class="fa fa-minus-circle" aria-hidden="true"></i></a>\n\
+                                <span class="itemEspacio cantidadItem">1</span>  \n\
+                                <a class="itemEspacio itemAgregar"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>  \n\
+                                <a class="itemEspacioLeft itemEliminar"><i class="fa fa-trash-o" aria-hidden="true"></i></a> \n\
+                            </div> \n\
+                            <div class="col-xs-6 col-md-8 col-sm-8 text-right"> \n\
+                                $<span class="itemMonto">' + monto + '</span> \n\
+                            </div> \n\
+                        </div>';          
             return item;
         }
 

@@ -78,7 +78,7 @@
 /* ====================================================== */
 body {
     background: #111;
-    color: #eee;
+    color: #ddd;
     font-size: 14px;
     font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     line-height: 20px;
@@ -102,7 +102,7 @@ body.loaded {
 }
 
 a {
-    color:#eee;
+    color:#ddd;
     text-decoration: none;
     cursor: pointer;
     -webkit-transition: all .4s ease;
@@ -114,7 +114,7 @@ a {
 
 a:hover {
     text-decoration: none;
-    color: #343434;
+    color: white;
 }
 
 .btnsItems:hover {
@@ -188,7 +188,9 @@ abbr[title], abbr[data-original-title] {
 
 .mt60 { margin-top: 60px; }
 
-
+.all-menu-details h5{
+    color:#ddd;
+}
 
 /* Headings */
 /* ====================================================== */
@@ -567,7 +569,7 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
 #header .header-nav-bar .navbar-nav li a {
     position: relative;
     display: block;
-    color: #ffffff;
+    color: #ddd;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
@@ -2337,6 +2339,9 @@ input[type="submit"].btn-block, input[type="reset"].btn-block, input[type="butto
     border: none;
 }
 
+.price-option h4{
+    font-size:16px;
+}
 
 /* qty and cart */
 #main-wrapper .all-menu-details .qty-cart {
@@ -5086,17 +5091,17 @@ h5 a:hover { color: #666; }
 
 .panel{
     background-color:#252525;
-    color:white;
+    color:#ddd;
 }
 
 .panel-default > .panel-heading{
     background-color:#a70e0e;
-    color:white;   
+    color:#ddd;   
 }
 
 .panel-default > .panel-footer{
     background-color:#252525;
-    color:white;  
+    color:#ddd;  
 }
 
 .modal-content{
@@ -5123,3 +5128,32 @@ h5 a:hover { color: #666; }
 .itemMontoDesc{
     text-decoration: line-through;
 }
+
+.itemEspacio{
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.itemEspacioLeft{
+    margin-left:5px;
+}
+
+.itemEspacioRight{
+    margin-right:5px;
+}
+
+.contadorItems{
+    background-color:#ff0b0f;
+    border-radius:50%;
+    border:2px solid #252525;
+    color:#eee;
+    font-size:12px;
+    height:24px !important;
+    line-height:25px;
+    position:absolute;
+    width:24px !important;
+    bottom:2em;
+    text-align:center;
+    
+}
+
