@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Carta - Avocado Rolls - Sushi y Wok</title>
+        <title>Carta - Ceviches - Sushi y Wok</title>
         <!-- Stylesheets -->
         <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/bootstrap.css">
@@ -65,7 +65,7 @@
                         <div class="col-md-12">
                             <ul class="nav nav-tabs" role="tablist">
 
-                                <li class="active"><a href="#tab-california" role="tab" data-toggle="tab">Avocado Rolls</a>
+                                <li class="active"><a href="#tab-ceviche" role="tab" data-toggle="tab">CEVICHE</a>
                                 </li>
 
                             </ul>
@@ -89,7 +89,7 @@
                             <div class="tab-content">
                                 <div class="tab-pane fade in active" id="tab-avocado">
                                     <div class="all-menu-details menu-with-2grid thumb">
-                                        <h5>AVOCADO ROLLS (ENVUELTOS EN PALTA, 9 PIEZAS)</h5>
+                                        <h5>Estilo peruano</h5>
                                         <div class="row">
                                             <div class="col-md-4">
 
@@ -101,25 +101,24 @@
                                                     <div class="all-details">
                                                         <div class="visible-option">
                                                             <div class="details">
-                                                                <h6><a >24. Avocado Kani</a>
+                                                                <h6><a >95. ceviche de salnon</a>
                                                                 </h6>
-                                                                <p class="for-list">(kanikama, queso crema y palta)</p>
+                                                                <p class="for-list">(Salmom, cebolla morada, cancha y camote)</p>
                                                             </div>
-
                                                             <div class="qty-cart text-center clearfix">
-                                                                <img class="img-responsive img-rounded imagenSushi" src="img/sushi/12.jpg" />
+                                                                
                                                             </div>
                                                             <!-- end .price-option-->
                                                             <div class="price-option fl">
-                                                                <h4>$ 6.800</h4>
+                                                                <h4>$ 11.000</h4>
                                                                 <h4><div style="color:#FF5733;"> -50%</div></h4>
-                                                                <h5>$ 3.400</h5>                                                               
+                                                                <h5>$ 5.500</h5>                                                               
                                                             </div>
-                                                        </div> <!-- end .vsible-option -->
+                                                        </div>
+                                                        <!-- end .qty-cart -->
 
                                                         <div class="dropdown-option clearfix">
                                                             <div class="dropdown-details">
-
                                                             </div>
                                                             <!--end .dropdown-details-->
                                                         </div>
@@ -136,9 +135,9 @@
                                                     <div class="all-details">
                                                         <div class="visible-option">
                                                             <div class="details">
-                                                                <h6><a >25. Avocado Vegetariano</a>
+                                                                <h6><a >96. Cebiche mixto</a>
                                                                 </h6>
-                                                                <p class="for-list">(pepino, cebollín y queso crema)</p>
+                                                                <p class="for-list">(pulpo, calamar, pescado banco, cebolla morada, cancha y camote)</p>
                                                             </div>
 
                                                             <div class="qty-cart text-center clearfix">
@@ -146,15 +145,15 @@
                                                             </div>
                                                             <!-- end .price-option-->
                                                             <div class="price-option fl">
-                                                                <h4>$ 6.800</h4>
+                                                                <h4>$ 11.000</h4>
                                                                 <h4><div style="color:#FF5733;"> -50%</div></h4>
-                                                                <h5>$ 3.400</h5>                                                               
+                                                                <h5>$ 5.500</h5>                                                               
                                                             </div>
-                                                        </div> <!-- end .vsible-option -->
+                                                        </div>
+                                                        <!-- end .qty-cart -->
 
                                                         <div class="dropdown-option clearfix">
                                                             <div class="dropdown-details">
-
                                                             </div>
                                                             <!--end .dropdown-details-->
                                                         </div>
@@ -165,39 +164,6 @@
                                                 <!-- end .item-list -->
 
 
-
-
-                                                <div class="item-list">
-                                                    <div class="all-details">
-                                                        <div class="visible-option">
-                                                            <div class="details">
-                                                                <h6><a >26. Avocado Premiun</a>
-                                                                </h6>
-                                                                <p class="for-list">(queso crema, salmón y ciboulette)</p>
-                                                            </div>
-
-                                                            <div class="qty-cart text-center clearfix">
-                                                                
-                                                            </div>
-                                                            <!-- end .price-option-->
-                                                            <div class="price-option fl">
-                                                                <h4>$ 6.800</h4>
-                                                                <h4><div style="color:#FF5733;"> -50%</div></h4>
-                                                                <h5>$ 3.400</h5>                                                               
-                                                            </div>
-                                                        </div> <!-- end .vsible-option -->
-
-                                                        <div class="dropdown-option clearfix">
-                                                            <div class="dropdown-details">
-
-                                                            </div>
-                                                            <!--end .dropdown-details-->
-                                                        </div>
-                                                        <!--end .dropdown-option-->
-                                                    </div>
-                                                    <!-- end .all-details -->
-                                                </div>
-                                                <!-- end .item-list -->
 
 
 
@@ -215,9 +181,8 @@
                                                     <div class="all-details">
                                                         <div class="visible-option">
                                                             <div class="details">
-                                                                <h6><a >27. Avocado Camarón</a>
-                                                                </h6>
-                                                                <p class="for-list">(camarón, queso crema y palta)</p>
+                                                                <h6><a >97. Ceviche de pescado banco</a> </h6>
+                                                                <p class="for-list">(pescado blanco, cebolla morada, cancha y camote)</p>
                                                             </div>
 
                                                             <div class="qty-cart text-center clearfix">
@@ -225,9 +190,9 @@
                                                             </div>
                                                             <!-- end .price-option-->
                                                             <div class="price-option fl">
-                                                                <h4>$ 6.800</h4>
+                                                                <h4>$ 11.000</h4>
                                                                 <h4><div style="color:#FF5733;"> -50%</div></h4>
-                                                                <h5>$ 3.400</h5>                                                               
+                                                                <h5>$ 5.500</h5>                                                               
                                                             </div>
                                                         </div> <!-- end .vsible-option -->
 
@@ -242,43 +207,6 @@
                                                     <!-- end .all-details -->
                                                 </div>
                                                 <!-- end .item-list -->
-
-
-                                                <div class="item-list">
-                                                    <div class="all-details">
-                                                        <div class="visible-option">
-                                                            <div class="details">
-                                                                <h6><a >28. Avocado Ebi</a>
-                                                                </h6>
-                                                                <p class="for-list">(camarón, queso crema y pepino)</p>
-                                                            </div>
-
-                                                            <div class="qty-cart text-center clearfix">
-                                                                
-                                                            </div>
-                                                            <!-- end .price-option-->
-                                                            <div class="price-option fl">
-                                                                <h4>$ 6.800</h4>
-                                                                <h4><div style="color:#FF5733;"> -50%</div></h4>
-                                                                <h5>$ 3.400</h5>                                                               
-                                                            </div>
-                                                        </div> <!-- end .vsible-option -->
-
-                                                        <div class="dropdown-option clearfix">
-                                                            <div class="dropdown-details">
-
-                                                            </div>
-                                                            <!--end .dropdown-details-->
-                                                        </div>
-                                                        <!--end .dropdown-option-->
-                                                    </div>
-                                                    <!-- end .all-details -->
-                                                </div>
-                                                <!-- end .item-list -->
-
-
-
-
 
 
 
@@ -294,9 +222,7 @@
                                             </div>
                                             <div class="hidden-xs hidden-sm col-md-4">
                                                 <?php include("include/carrodecompras.php") ?>
-
-                                            </div>                                                
-
+                                            </div>                                             
                                         </div> <!-- end .tab-pane -->
                                     </div> <!-- end .tab-content -->
 
@@ -355,7 +281,7 @@
                                         </span>
                                     </h5>
                                     <p>Santiago Centro <br>
-                                          <!--            <p>Próximamente ampliaremos el area de cobertura<br>   -->
+                                     <!--            <p>Próximamente ampliaremos el area de cobertura<br>   -->
                                     </p>
                                 </div>
 
@@ -378,13 +304,13 @@
             </div> <!-- end .page-content -->
         </div>
         <!-- end #main-wrapper -->
-        
+
         <?php include("include/carromodal.php") ?>
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <!-- Local jQuery -->
         <script>
-    window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')
+            window.jQuery || document.write('<script src="js/jquery-1.11.0.min.js"><\/script>')
         </script>
         <script src="js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
         <script src="js/jquery.magnific-popup.min.js"></script>

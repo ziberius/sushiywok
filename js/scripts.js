@@ -997,6 +997,13 @@
             ]
         });
 
+        $("body").on("click",".borrarItems",function(){
+            $(".itemCarro").remove();
+            $(".sinItems").fadeIn(500);      
+            $(".totalCarro").text("0");
+            $(".totalCarroDesc").text("0");
+            limpiarCarroSesion();
+        });
 
         $('#map_canvas').gmap({'scrollwheel': false}).bind('init', function (ev, map) {
             $('#map_canvas').gmap('addMarker', {'position': '57.7973333,12.0502107', 'bounds': true}).click(function () {
@@ -1007,11 +1014,14 @@
         });
 
         $(".carroCompras").on('click', 'a', function () {
+            var carroCompras = $(this).closest(".carroCompras");
+            carroCompras.addClass("carroActivo");
             var citem = $(this).parent().parent().find(".cantidadItem");
             var precio = $(this).parent().parent().find(".itemMonto");
-            var precioDesc = $(this).parent().parent().parent().find(".itemMontoDesc");
+            var precioDesc = $(this).parent().parent().prev().find(".itemMontoDesc");
             var precioInd = Number(precio.text()) / Number(citem.text());
             var precioNuevo = 0;
+            var itemPadre = $(this).parent().parent().parent();
             if ($(this).hasClass("itemAgregar")) {
                 precioNuevo = Number(precio.text()) + precioInd;
                 actualizarTotalCarro("sumar", precioInd);
@@ -1019,48 +1029,51 @@
                 precioDesc.text(precioNuevo*2);
                 citem.text(Number(citem.text()) + 1);
                 $("#contadorItems").val(Number($("#contadorItems").val())+1);
-                guardarCarroSesion();
+                guardarCarroSesion(carroCompras);
             }
             if ($(this).hasClass("itemQuitar")) {
                 actualizarTotalCarro("restar", precioInd);
                 $("#contadorItems").val(Number($("#contadorItems").val())-1);
                 if (Number(citem.text()) === 1) {
-                    $(this).parent().parent().fadeOut(500, function () {
+                    itemPadre.fadeOut(500, function () {
                         $(this).remove();
-                        guardarCarroSesion();
+                        guardarCarroSesion(carroCompras);
+                        if(carroCompras.find(".itemCarro").length === 0){
+                            $(".sinItems").fadeIn(500);
+                        }
                     });
                 } else {
                     precioNuevo = Number(precio.text()) - precioInd;
                     precio.text(precioNuevo);
                     precioDesc.text(precioNuevo*2);
                     citem.text(Number(citem.text()) - 1);
-                    guardarCarroSesion();
+                    guardarCarroSesion(carroCompras);
                 }
             }
             if ($(this).hasClass("itemEliminar")) {
                 $("#contadorItems").val(Number($("#contadorItems").val())-Number(citem.text()));
                 actualizarTotalCarro("restar", Number(precio.text()));
-                $(this).parent().parent().prev().fadeOut(500, function () {
+                itemPadre.fadeOut(500, function () {
                     $(this).remove();
-                });
-                $(this).parent().parent().fadeOut(500, function () {
-                    $(this).remove();
-                    guardarCarroSesion();
-                });                
+                    guardarCarroSesion(carroCompras);
+                    if(carroCompras.find(".itemCarro").length === 0){
+                        $(".sinItems").fadeIn(500);
+                    }                    
+                });  
             }
 
 
         });
 
         $(".item-list .all-details .visible-option .details a").on('click', function () {
-            var precio = $(this).closest(".visible-option").find(".price-option h4").text();
+            var precio = $(this).closest(".visible-option").find(".price-option h5").text();
             precio = precio.replace('$', '');
             precio = precio.replace('.', '');
             $(".sinItems").slideUp();
             $(".carroCompras").append(getItem($(this).text(), Number(precio)));
             $("#contadorItems").val(Number($("#contadorItems").val())+1);
             actualizarTotalCarro("sumar", Number(precio));
-            guardarCarroSesion();
+            guardarCarroSesion($(".carroCompras.carroActivo"));
             showMessage($(this).text() + " agregado al carro de compras.");
         });
 
@@ -1082,7 +1095,7 @@
         ;
 
         function getItem(nombre, monto) {
-            var item = '<div class="row itemCarro"> \n\
+            var item = '<div class="row itemCarro"><div> \n\
                             <div class="col-xs-9 col-sm-8 col-md-8"> \n\
                                 <span>' + nombre + '</span>\n\
                             </div>\n\
@@ -1090,7 +1103,7 @@
                                 $<span class="itemMontoDesc">' + Number(monto)*2 + '</span> \n\
                             </div>\n\
                         </div> \n\
-                        <div class=row itemCarro">\n\
+                        <div>\n\
                             <div class="col-xs-6 col-md-4 col-sm-4"> \n\
                                 <a class="itemEspacioRight itemQuitar"><i class="fa fa-minus-circle" aria-hidden="true"></i></a>\n\
                                 <span class="itemEspacio cantidadItem">1</span>  \n\
@@ -1100,23 +1113,35 @@
                             <div class="col-xs-6 col-md-8 col-sm-8 text-right"> \n\
                                 $<span class="itemMonto">' + monto + '</span> \n\
                             </div> \n\
-                        </div>';          
+                        </div></div>';          
             return item;
         }
 
 
         if (typeof (Storage) !== "undefined" && sessionStorage.getItem("itemsCarro") !== null) {
-            $(".sinItems").slideUp();
             $(".carroCompras").append(sessionStorage.getItem("itemsCarro"));
-            $("#totalCarro").text(sessionStorage.getItem("total"));
-            $("#totalCarroModal").text(sessionStorage.getItem("total"));
+            $(".totalCarro").text(sessionStorage.getItem("total"));
+            $(".totalCarroDesc").text(Number(sessionStorage.getItem("total"))*2);
+            $("#contadorItems").val(sessionStorage.getItem("cantidad"));
+            $(".sinItems").remove();
         } else {
 
         }
 
-        function guardarCarroSesion() {
-            sessionStorage.setItem("itemsCarro", $(".carroCompras").html());
+        function limpiarCarroSesion() {
+            sessionStorage.removeItem("itemsCarro");
+            sessionStorage.removeItem("total", "0");
+            sessionStorage.setItem("cantidad","0");
+        }
+
+        function guardarCarroSesion(carroCompras) {
+            if(carroCompras.length > 0){
+                sessionStorage.setItem("itemsCarro", carroCompras.html());
+            }else{
+                sessionStorage.setItem("itemsCarro", $(".carroCompras").html());
+            }
             sessionStorage.setItem("total", $("#totalCarro").text());
+            sessionStorage.setItem("cantidad",$("#contadorItems").val());
         }
 
         $("#abrirCarro").on("click", function () {
@@ -1140,8 +1165,8 @@
         if(getParameterByName("menuitem") === "avocadorolls"){
             $("#liAvocadoRolls").addClass("active");
         }else
-        if(getParameterByName("menuitem") === "toprolls"){
-            $("#liTopRolls").addClass("active");
+        if(getParameterByName("menuitem") === "specialrolls"){
+            $("#liSpecialRolls").addClass("active");
         }else
         if(getParameterByName("menuitem") === "sakerolls"){
             $("#liSakeRolls").addClass("active");
@@ -1149,11 +1174,14 @@
         if(getParameterByName("menuitem") === "hotrolls"){
             $("#liHotRolls").addClass("active");
         }else
-        if(getParameterByName("menuitem") === "makirolls"){
-            $("#liMakiRolls").addClass("active");
+        if(getParameterByName("menuitem") === "acompanar"){
+            $("#liParaAcompanar").addClass("active");
         }else
-        if(getParameterByName("menuitem") === "contacto"){
-            $("#liContacto").addClass("active");
+        if(getParameterByName("menuitem") === "wok"){
+            $("#liWok").addClass("active");
+        }else
+        if(getParameterByName("menuitem") === "ceviches"){
+            $("#liCeviches").addClass("active");
         }else{
             $("#liIndex").addClass("active");
         }

@@ -39,7 +39,7 @@
         <![endif]-->
     </head>
 
-    <body>
+    <body class="carta">
         <div id="main-wrapper">
             <?php include('include/header.php') ?>
             <!-- end #header -->
@@ -89,7 +89,7 @@
                             <div class="tab-content">
                                 <div class="tab-pane fade in active" id="tab-avocado">
                                     <div class="all-menu-details menu-with-2grid thumb">
-                                        <h5>CALIFORNIAS (ENVUELTOS EN MASAGO, SÉSAMO O CIBOULETTE (9 PIEZAS)</h5>
+                                        <h5>CALIFORNIAS (ENVUELTOS EN MASAGO, SÉSAMO, CIBOULETTE O CHICHIMI (9 PIEZAS)</h5>
                                         <div class="row">
                                             <div class="col-xs-12 col-sm-12 col-md-4">
 
@@ -101,16 +101,19 @@
                                                     <div class="all-details">
                                                         <div class="visible-option">
                                                             <div class="details">
-                                                                <h6><a>01. California Light</a>
+                                                                <h6><a>08. California Light</a>
                                                                 </h6>
                                                                 <p class="for-list">(kanikama, pepino y palta)</p>
                                                             </div>
 
-                                                            <div class="price-option fl">
-                                                                <h4>$ 3.000</h4>
+                                                            <div class="qty-cart text-center clearfix">
+                                                                
                                                             </div>
                                                             <!-- end .price-option-->
-                                                            <div class="qty-cart text-center clearfix">
+                                                            <div class="price-option fl">
+                                                                <h4>$ 5.800</h4>
+                                                                <h4><div style="color:#FF5733;"> -50%</div></h4>
+                                                                <h5>$ 2.900</h5>                                                               
                                                             </div>
                                                         </div>
                                                         <!-- end .qty-cart -->
@@ -134,49 +137,55 @@
                                                     <div class="all-details">
                                                         <div class="visible-option">
                                                             <div class="details">
-                                                                <h6><a >03. California Avo Sake</a>
+                                                                <h6><a >09. California kani</a>
+                                                                </h6>
+                                                                <p class="for-list">(kanikama, palta y cebollín)</p>
+                                                            </div>
+
+                                                            <div class="qty-cart text-center clearfix">
+                                                                
+                                                            </div>
+                                                            <!-- end .price-option-->
+                                                            <div class="price-option fl">
+                                                                <h4>$ 5.800</h4>
+                                                                <h4><div style="color:#FF5733;"> -50%</div></h4>
+                                                                <h5>$ 2.900</h5>                                                               
+                                                            </div>
+                                                        </div>
+                                                        <!-- end .qty-cart -->
+
+                                                        <div class="dropdown-option clearfix">
+                                                            <div class="dropdown-details">
+
+                                                            </div>
+                                                            <!--end .dropdown-details-->
+                                                        </div>
+                                                        <!--end .dropdown-option-->
+                                                    </div>
+                                                    <!-- end .all-details -->
+                                                </div>
+                                                <!-- end .item-list -->
+
+
+
+
+                                                <div class="item-list">
+                                                    <div class="all-details">
+                                                        <div class="visible-option">
+                                                            <div class="details">
+                                                                <h6><a >10. California Avo Sake</a>
                                                                 </h6>
                                                                 <p class="for-list">(salmón y extra palta)</p>
                                                             </div>
 
-                                                            <div class="price-option fl">
-                                                                <h4>$ 3.600</h4>
+                                                            <div class="qty-cart text-center clearfix">
+                                                                
                                                             </div>
                                                             <!-- end .price-option-->
-                                                            <div class="qty-cart text-center clearfix">
-                                                            </div>
-                                                        </div>
-                                                        <!-- end .qty-cart -->
-
-                                                        <div class="dropdown-option clearfix">
-                                                            <div class="dropdown-details">
-
-                                                            </div>
-                                                            <!--end .dropdown-details-->
-                                                        </div>
-                                                        <!--end .dropdown-option-->
-                                                    </div>
-                                                    <!-- end .all-details -->
-                                                </div>
-                                                <!-- end .item-list -->
-
-
-
-
-                                                <div class="item-list">
-                                                    <div class="all-details">
-                                                        <div class="visible-option">
-                                                            <div class="details">
-                                                                <h6><a >04. California Sake Cheese</a>
-                                                                </h6>
-                                                                <p class="for-list">(salmón, palta y queso crema)</p>
-                                                            </div>
-
                                                             <div class="price-option fl">
-                                                                <h4>$ 3.700</h4>
-                                                            </div>
-                                                            <!-- end .price-option-->
-                                                            <div class="qty-cart text-center clearfix">
+                                                                <h4>$ 5.800</h4>
+                                                                <h4><div style="color:#FF5733;"> -50%</div></h4>
+                                                                <h5>$ 2.900</h5>                                                               
                                                             </div>
                                                         </div>
                                                         <!-- end .qty-cart -->
@@ -201,16 +210,19 @@
                                                     <div class="all-details">
                                                         <div class="visible-option">
                                                             <div class="details">
-                                                                <h6><a >05. California Llin</a>
+                                                                <h6><a >11. California Sake Chesse</a>
                                                                 </h6>
-                                                                <p class="for-list">(cebollín, salmón y queso crema)</p>
+                                                                <p class="for-list">(Salmón, palta y queso crema)</p>
                                                             </div>
 
-                                                            <div class="price-option fl">
-                                                                <h4>$ 3.700</h4>
+                                                            <div class="qty-cart text-center clearfix">
+                                                                
                                                             </div>
                                                             <!-- end .price-option-->
-                                                            <div class="qty-cart text-center clearfix">
+                                                            <div class="price-option fl">
+                                                                <h4>$ 5.800</h4>
+                                                                <h4><div style="color:#FF5733;"> -50%</div></h4>
+                                                                <h5>$ 2.900</h5>                                                               
                                                             </div>
                                                         </div>
                                                         <!-- end .qty-cart -->
@@ -232,16 +244,19 @@
                                                     <div class="all-details">
                                                         <div class="visible-option">
                                                             <div class="details">
-                                                                <h6><a >06. California Vegetariano</a>
+                                                                <h6><a >12. California Llin</a>
                                                                 </h6>
-                                                                <p class="for-list">(pepino, cebollín y queso crema)</p>
+                                                                <p class="for-list">(Cebollín, salmón y queso crema)</p>
                                                             </div>
 
-                                                            <div class="price-option fl">
-                                                                <h4>$ 3.100</h4>
+                                                            <div class="qty-cart text-center clearfix">
+                                                                
                                                             </div>
                                                             <!-- end .price-option-->
-                                                            <div class="qty-cart text-center clearfix">
+                                                            <div class="price-option fl">
+                                                                <h4>$ 5.800</h4>
+                                                                <h4><div style="color:#FF5733;"> -50%</div></h4>
+                                                                <h5>$ 2.900</h5>                                                               
                                                             </div>
                                                         </div>
                                                         <!-- end .qty-cart -->
@@ -261,74 +276,6 @@
 
 
 
-
-
-
-                                                <div class="item-list">
-                                                    <div class="all-details">
-                                                        <div class="visible-option">
-                                                            <div class="details">
-                                                                <h6><a >09. California Ebi Top</a>
-                                                                </h6>
-
-                                                                <p class="for-list">(camarón, queso crema y palta)</p>
-                                                            </div>
-
-                                                            <div class="price-option fl">
-                                                                <h4>$ 3.700</h4>
-
-                                                            </div>
-                                                            <!-- end .price-option-->
-                                                            <div class="qty-cart text-center clearfix">
-
-                                                            </div> <!-- end .qty-cart -->
-                                                        </div> <!-- end .vsible-option -->
-
-                                                        <div class="dropdown-option clearfix">
-                                                            <div class="dropdown-details">
-
-                                                            </div>
-                                                            <!--end .dropdown-details-->
-                                                        </div>
-                                                        <!--end .dropdown-option-->
-                                                    </div>
-                                                    <!-- end .all-details -->
-                                                </div>
-                                                <!-- end .item-list -->
-
-
-
-
-
-                                                <div class="item-list">
-                                                    <div class="all-details">
-                                                        <div class="visible-option">
-                                                            <div class="details">
-                                                                <h6><a >10. California Chicken</a>
-                                                                </h6>
-                                                                <p class="for-list">(pollo, cebollín y queso crema)</p>
-                                                            </div>
-
-                                                            <div class="price-option fl">
-                                                                <h4>$ 3.400</h4>
-                                                            </div>
-                                                            <!-- end .price-option-->
-                                                            <div class="qty-cart text-center clearfix">
-                                                            </div>
-                                                        </div>
-                                                        <!-- end .qty-cart -->
-
-                                                        <div class="dropdown-option clearfix">
-                                                            <div class="dropdown-details">
-
-                                                            </div>
-                                                            <!--end .dropdown-details-->
-                                                        </div>
-                                                        <!--end .dropdown-option-->
-                                                    </div>
-                                                    <!-- end .all-details -->
-                                                </div>
-                                                <!-- end .item-list -->
 
 
 
@@ -340,241 +287,180 @@
 
 
 
-
-
-
-                                            <div class="col-xs-12 col-sm-12 col-md-4">
+                                            <div class="col-md-4">
                                                 <div class="item-list">
                                                     <div class="all-details">
                                                         <div class="visible-option">
                                                             <div class="details">
-                                                                <h6><a >12. California Chicken Llin</a> </h6>
+                                                                <h6><a >13. California Vegetariano</a>
+                                                                </h6>
+
+                                                                <p class="for-list">(Pepino, cebollín y queso crema)</p>
+                                                            </div>
+
+                                                            <div class="qty-cart text-center clearfix">
+                                                                
+                                                            </div>
+                                                            <!-- end .price-option-->
+                                                            <div class="price-option fl">
+                                                                <h4>$ 5.800</h4>
+                                                                <h4><div style="color:#FF5733;"> -50%</div></h4>
+                                                                <h5>$ 2.900</h5>                                                               
+                                                            </div>
+                                                        </div> <!-- end .vsible-option -->
+
+                                                        <div class="dropdown-option clearfix">
+                                                            <div class="dropdown-details">
+
+                                                            </div>
+                                                            <!--end .dropdown-details-->
+                                                        </div>
+                                                        <!--end .dropdown-option-->
+                                                    </div>
+                                                    <!-- end .all-details -->
+                                                </div>
+                                                <!-- end .item-list -->
+
+
+
+
+
+
+
+
+
+
+                                                <div class="item-list">
+                                                    <div class="all-details">
+                                                        <div class="visible-option">
+                                                            <div class="details">
+                                                                <h6><a >14. California Champignon</a>
+                                                                </h6>
+                                                                <p class="for-list">(Champignon, pollo y pimenton)</p>
+                                                            </div>
+
+                                                            <div class="qty-cart text-center clearfix">
+                                                                
+                                                            </div>
+                                                            <!-- end .price-option-->
+                                                            <div class="price-option fl">
+                                                                <h4>$ 5.800</h4>
+                                                                <h4><div style="color:#FF5733;"> -50%</div></h4>
+                                                                <h5>$ 2.900</h5>                                                               
+                                                            </div>
+                                                        </div>
+                                                        <!-- end .qty-cart -->
+
+                                                        <div class="dropdown-option clearfix">
+                                                            <div class="dropdown-details">
+
+                                                            </div>
+                                                            <!--end .dropdown-details-->
+                                                        </div>
+                                                        <!--end .dropdown-option-->
+                                                    </div>
+                                                    <!-- end .all-details -->
+                                                </div>
+                                                <!-- end .item-list -->
+
+
+
+
+                                                <div class="item-list">
+                                                    <div class="all-details">
+                                                        <div class="visible-option">
+                                                            <div class="details">
+                                                                <h6><a >15. California Ebi</a>
+                                                                </h6>
+                                                                <p class="for-list">(Camarón, queso crema y palta)</p>
+                                                            </div>
+
+                                                            <div class="qty-cart text-center clearfix">
+                                                                
+                                                            </div>
+                                                            <!-- end .price-option-->
+                                                            <div class="price-option fl">
+                                                                <h4>$ 5.800</h4>
+                                                                <h4><div style="color:#FF5733;"> -50%</div></h4>
+                                                                <h5>$ 2.900</h5>                                                               
+                                                            </div>
+                                                        </div>
+                                                        <!-- end .qty-cart -->
+
+                                                        <div class="dropdown-option clearfix">
+                                                            <div class="dropdown-details">
+
+                                                            </div>
+                                                            <!--end .dropdown-details-->
+                                                        </div>
+                                                        <!--end .dropdown-option-->
+                                                    </div>
+                                                    <!-- end .all-details -->
+                                                </div>
+                                                <!-- end .item-list -->
+
+
+
+
+
+                                                <div class="item-list">
+                                                    <div class="all-details">
+                                                        <div class="visible-option">
+                                                            <div class="details">
+                                                                <h6><a >16. California Chicken</a> </h6>
+                                                                <p class="for-list">(Pollo,cebollín y  queso crema)</p>
+                                                            </div>
+
+                                                            <div class="qty-cart text-center clearfix">
+                                                                
+                                                            </div>
+                                                            <!-- end .price-option-->
+                                                            <div class="price-option fl">
+                                                                <h4>$ 5.800</h4>
+                                                                <h4><div style="color:#FF5733;"> -50%</div></h4>
+                                                                <h5>$ 2.900</h5>                                                               
+                                                            </div>
+                                                        </div> <!-- end .vsible-option -->
+
+                                                        <div class="dropdown-option clearfix">
+                                                            <div class="dropdown-details">
+
+                                                            </div>
+                                                            <!--end .dropdown-details-->
+                                                        </div>
+                                                        <!--end .dropdown-option-->
+                                                    </div>
+                                                    <!-- end .all-details -->
+                                                </div>
+                                                <!-- end .item-list -->
+
+
+
+
+
+
+
+
+
+
+
+                                                <div class="item-list">
+                                                    <div class="all-details">
+                                                        <div class="visible-option">
+                                                            <div class="details">
+                                                                <h6><a >17. California Chicken Llin</a>															</h6>
                                                                 <p class="for-list">(pollo, palta y cebollín)</p>
                                                             </div>
 
-                                                            <div class="price-option fl">
-                                                                <h4>$ 3.300</h4>
-
+                                                            <div class="qty-cart text-center clearfix">
+                                                                
                                                             </div>
                                                             <!-- end .price-option-->
-                                                            <div class="qty-cart text-center clearfix">
-
-                                                            </div> <!-- end .qty-cart -->
-                                                        </div> <!-- end .vsible-option -->
-
-                                                        <div class="dropdown-option clearfix">
-                                                            <div class="dropdown-details">
-
-                                                            </div>
-                                                            <!--end .dropdown-details-->
-                                                        </div>
-                                                        <!--end .dropdown-option-->
-                                                    </div>
-                                                    <!-- end .all-details -->
-                                                </div>
-                                                <!-- end .item-list -->
-
-
-
-
-
-
-
-
-
-
-                                                <div class="item-list">
-                                                    <div class="all-details">
-                                                        <div class="visible-option">
-                                                            <div class="details">
-                                                                <h6><a >15. California Meat Cheese</a>															</h6>
-                                                                <p class="for-list">(carne de vacuno, pimentón rojo y queso crema)</p>
-                                                            </div>
-
                                                             <div class="price-option fl">
-                                                                <h4>$ 3.700</h4>
-
+                                                                <h4>$ 5.800</h4>
+                                                                <h4><div style="color:#FF5733;"> -50%</div></h4>
+                                                                <h5>$ 2.900</h5>                                                               
                                                             </div>
-                                                            <!-- end .price-option-->
-                                                            <div class="qty-cart text-center clearfix">
-
-
-                                                            </div> <!-- end .qty-cart -->
-                                                        </div> <!-- end .vsible-option -->
-
-                                                        <div class="dropdown-option clearfix">
-                                                            <div class="dropdown-details">
-
-                                                            </div>
-                                                            <!--end .dropdown-details-->
-                                                        </div>
-                                                        <!--end .dropdown-option-->
-                                                    </div>
-                                                    <!-- end .all-details -->
-                                                </div>
-                                                <!-- end .item-list -->
-
-
-
-
-                                                <div class="item-list">
-                                                    <div class="all-details">
-                                                        <div class="visible-option">
-                                                            <div class="details">
-                                                                <h6><a >16. California Sake Tempura Llin</a>															</h6>
-                                                                <p class="for-list">(salmón, tempura, palta y cebollín)</p>
-                                                            </div>
-
-                                                            <div class="price-option fl">
-                                                                <h4>$ 3.800</h4>
-
-                                                            </div>
-                                                            <!-- end .price-option-->
-                                                            <div class="qty-cart text-center clearfix">
-
-
-                                                            </div> <!-- end .qty-cart -->
-                                                        </div> <!-- end .vsible-option -->
-
-                                                        <div class="dropdown-option clearfix">
-                                                            <div class="dropdown-details">
-
-                                                            </div>
-                                                            <!--end .dropdown-details-->
-                                                        </div>
-                                                        <!--end .dropdown-option-->
-                                                    </div>
-                                                    <!-- end .all-details -->
-                                                </div>
-                                                <!-- end .item-list -->
-
-
-
-
-
-                                                <div class="item-list">
-                                                    <div class="all-details">
-                                                        <div class="visible-option">
-                                                            <div class="details">
-                                                                <h6><a >17. California Ebi Tempura Lin</a>															</h6>
-                                                                <p class="for-list">(camarón tempura, palta y cebollín)</p>
-                                                            </div>
-
-                                                            <div class="price-option fl">
-                                                                <h4>$ 3.700</h4>
-
-                                                            </div>
-                                                            <!-- end .price-option-->
-                                                            <div class="qty-cart text-center clearfix">
-
-
-                                                            </div> <!-- end .qty-cart -->
-                                                        </div> <!-- end .vsible-option -->
-
-                                                        <div class="dropdown-option clearfix">
-                                                            <div class="dropdown-details">
-
-                                                            </div>
-                                                            <!--end .dropdown-details-->
-                                                        </div>
-                                                        <!--end .dropdown-option-->
-                                                    </div>
-                                                    <!-- end .all-details -->
-                                                </div>
-                                                <!-- end .item-list -->
-
-
-
-
-
-                                                <div class="item-list">
-                                                    <div class="all-details">
-                                                        <div class="visible-option">
-                                                            <div class="details">
-                                                                <h6><a >18. California Sake Tempura Cheese</a>															</h6>
-                                                                <p class="for-list">(salmón tempura, cebollín y queso crema)</p>
-                                                            </div>
-
-                                                            <div class="price-option fl">
-                                                                <h4>$ 3.700</h4>
-
-                                                            </div>
-                                                            <!-- end .price-option-->
-                                                            <div class="qty-cart text-center clearfix">
-
-
-                                                            </div> <!-- end .qty-cart -->
-                                                        </div> <!-- end .vsible-option -->
-
-                                                        <div class="dropdown-option clearfix">
-                                                            <div class="dropdown-details">
-
-                                                            </div>
-                                                            <!--end .dropdown-details-->
-                                                        </div>
-                                                        <!--end .dropdown-option-->
-                                                    </div>
-                                                    <!-- end .all-details -->
-                                                </div>
-                                                <!-- end .item-list -->
-
-
-
-
-
-                                                <div class="item-list">
-                                                    <div class="all-details">
-                                                        <div class="visible-option">
-                                                            <div class="details">
-                                                                <h6><a >19. California Ebi tempura Cheese</a>															</h6>
-                                                                <p class="for-list">(camarón tempura, cebollín y queso crema)</p>
-                                                            </div>
-
-                                                            <div class="price-option fl">
-                                                                <h4>$ 3.700</h4>
-
-                                                            </div>
-                                                            <!-- end .price-option-->
-                                                            <div class="qty-cart text-center clearfix">
-
-
-                                                            </div> <!-- end .qty-cart -->
-                                                        </div> <!-- end .vsible-option -->
-
-                                                        <div class="dropdown-option clearfix">
-                                                            <div class="dropdown-details">
-
-                                                            </div>
-                                                            <!--end .dropdown-details-->
-                                                        </div>
-                                                        <!--end .dropdown-option-->
-                                                    </div>
-                                                    <!-- end .all-details -->
-                                                </div>
-                                                <!-- end .item-list -->
-
-
-
-
-
-
-                                                <div class="item-list">
-                                                    <div class="all-details">
-                                                        <div class="visible-option">
-                                                            <div class="details">
-                                                                <h6><a >21. Cebollín Ostión Tempura Cheese</a>															</h6>
-                                                                <p class="for-list">(ostión tempura, palta y queso crema)</p>
-                                                            </div>
-
-                                                            <div class="price-option fl">
-                                                                <h4>$ 3.900</h4>
-
-                                                            </div>
-                                                            <!-- end .price-option-->
-                                                            <div class="qty-cart text-center clearfix">
-
-
-                                                            </div> <!-- end .qty-cart -->
                                                         </div> <!-- end .vsible-option -->
 
                                                         <div class="dropdown-option clearfix">
@@ -596,29 +482,7 @@
                                             </div>
 
                                             <div class="hidden-xs hidden-sm col-md-4">
-                                                <div class="panel panel-default">
-                                                    <div class="panel-heading">
-                                                        <h4>Mi Pedido</h4>
-                                                    </div>
-                                                    <div class="panel-body carroCompras">
-                                                        <div class="sinItems">
-                                                            <i class="fa fa-2x fa-shopping-cart"></i><h5>Comienza a armar tu pedido</h5>
-                                                        </div>
-                                                    </div>
-                                                    <div class="panel-footer">
-                                                        <div class="row">
-                                                            <div class="col-xs-6 col-md-6 col-sm-6">
-                                                                <span>Total a pagar:</span>
-                                                            </div>
-                                                            <div class="col-xs-3 col-md-3 col-sm-3 text-right">
-                                                                $<span class="itemMontoDesc totalCarroDesc">0</span>
-                                                            </div>                                                            
-                                                            <div class="col-xs-3 col-md-3 col-sm-3 text-right">
-                                                                $<span id="totalCarro" class="totalCarro">0</span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                <?php include("include/carrodecompras.php") ?>
 
                                             </div>                                                
 
@@ -680,7 +544,8 @@
                                         </span>
                                     </h5>
 
-                                    <p>Próximamente ampliaremos el area de cobertura<br>
+                                    <p>Santiago Centro <br>
+                                     <!--            <p>Próximamente ampliaremos el area de cobertura<br>   -->
                                     </p>
                                 </div>
 
@@ -690,7 +555,7 @@
 
                     <div class="footer-copyright">
                         <div class="container">
-                            <p>Copyright 2016 © SushiyWok. Todos los Derechos Reservados <a href="#"></a>.</p>
+                            <p>Copyright 2016 © SushiyWok. Todos los Derechos Reservados <a ></a>.</p>
                             <ul class="footer-social">
 
                             </ul>
@@ -704,43 +569,7 @@
         </div>
         <!-- end #main-wrapper -->
 
-        <div id="modalCarroCompra" class="modal fade" role="dialog">
-            <div class="modal-dialog modal-lg">
-
-                <!-- Modal content-->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Carro de compras</h4>
-                    </div>
-                    <div class="modal-body">        
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4>Mi Pedido</h4>
-                            </div>
-                            <div class="panel-body carroCompras">
-                                <div class="sinItems">
-                                    <i class="fa fa-2x fa-shopping-cart"></i><h5>Comienza a armar tu pedido</h5>
-                                </div>
-                            </div>
-                            <div class="panel-footer">
-                                <div class="row">
-                                    <div class="col-xs-4 col-md-6 col-sm-4">
-                                        <span>Total:</span>
-                                    </div>
-                                    <div class="col-xs-4 col-md-3 col-sm-4 text-right">
-                                        $<span class="itemMontoDesc totalCarroDesc">0</span>
-                                    </div>                                                            
-                                    <div class="col-xs-4 col-md-3 col-sm-4 text-right">
-                                        $<span class="totalCarro">0</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> 
-                    </div>
-                </div>
-            </div>
-        </div>         
+        <?php include("include/carromodal.php") ?>
 
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

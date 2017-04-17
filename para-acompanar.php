@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Carta - Sake Rolls - Sushi y Wok</title>
+        <title>Carta - Para Acompañar - Sushi y Wok</title>
         <!-- Stylesheets -->
         <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/bootstrap.css">
@@ -65,7 +65,7 @@
                         <div class="col-md-12">
                             <ul class="nav nav-tabs" role="tablist">
 
-                                <li class="active"><a href="#tab-california" role="tab" data-toggle="tab">Sake Rolls</a>
+                                <li class="active"><a href="#tab-para-acompa�ar" role="tab" data-toggle="tab">Para Acompa&ntildear</a>
                                 </li>
 
                             </ul>
@@ -89,7 +89,7 @@
                             <div class="tab-content">
                                 <div class="tab-pane fade in active" id="tab-avocado">
                                     <div class="all-menu-details menu-with-2grid thumb">
-                                        <h5>SAKE ROLLS (ENVUELTOS EN SALMÓN, 9 PIEZAS)</h5>
+                                        <h5></h5>
                                         <div class="row">
                                             <div class="col-md-4">
 
@@ -101,25 +101,24 @@
                                                     <div class="all-details">
                                                         <div class="visible-option">
                                                             <div class="details">
-                                                                <h6><a >44. Sake Normal</a>
+                                                                <h6><a >68. Niguiri de Salmon</a>
                                                                 </h6>
-                                                                <p class="for-list">(palta y queso crema)</p>
+                                                                <p class="for-list">(Bolita de arroz cubierta en salon)</p>
                                                             </div>
                                                             <div class="qty-cart text-center clearfix">
                                                                 
                                                             </div>
                                                             <!-- end .price-option-->
                                                             <div class="price-option fl">
-                                                                <h4>$ 7.400</h4>
+                                                                <h4>$ 2.400</h4>
                                                                 <h4><div style="color:#FF5733;"> -50%</div></h4>
-                                                                <h5>$ 3.700</h5>                                                               
+                                                                <h5>$ 1.200</h5>                                                               
                                                             </div>
                                                         </div>
                                                         <!-- end .qty-cart -->
 
                                                         <div class="dropdown-option clearfix">
                                                             <div class="dropdown-details">
-
                                                             </div>
                                                             <!--end .dropdown-details-->
                                                         </div>
@@ -136,25 +135,25 @@
                                                     <div class="all-details">
                                                         <div class="visible-option">
                                                             <div class="details">
-                                                                <h6><a >45. Sake Kani</a>
+                                                                <h6><a >69. Niguiri de palta</a>
                                                                 </h6>
-                                                                <p class="for-list">(kanikama y palta)</p>
+                                                                <p class="for-list">(Bolita de arroz cubierta en palta)</p>
                                                             </div>
+
                                                             <div class="qty-cart text-center clearfix">
                                                                 
                                                             </div>
                                                             <!-- end .price-option-->
                                                             <div class="price-option fl">
-                                                                <h4>$ 7.400</h4>
+                                                                <h4>$ 2.400</h4>
                                                                 <h4><div style="color:#FF5733;"> -50%</div></h4>
-                                                                <h5>$ 3.700</h5>                                                               
+                                                                <h5>$ 1.200</h5>                                                               
                                                             </div>
                                                         </div>
                                                         <!-- end .qty-cart -->
 
                                                         <div class="dropdown-option clearfix">
                                                             <div class="dropdown-details">
-
                                                             </div>
                                                             <!--end .dropdown-details-->
                                                         </div>
@@ -171,21 +170,131 @@
                                                     <div class="all-details">
                                                         <div class="visible-option">
                                                             <div class="details">
-                                                                <h6><a >46. Sake Premiun</a>
+                                                                <h6><a >70. Niguiri de camaron</a>
                                                                 </h6>
-                                                                <p class="for-list">(queso crema, palta y ciboulette)</p>
+                                                                <p class="for-list">(Bolita de arroz cubierta en camaron)</p>
                                                             </div>
+
                                                             <div class="qty-cart text-center clearfix">
                                                                 
                                                             </div>
                                                             <!-- end .price-option-->
                                                             <div class="price-option fl">
-                                                                <h4>$ 7.400</h4>
+                                                                <h4>$ 2.400</h4>
                                                                 <h4><div style="color:#FF5733;"> -50%</div></h4>
-                                                                <h5>$ 3.700</h5>                                                               
+                                                                <h5>$ 1.200</h5>                                                               
                                                             </div>
                                                         </div>
                                                         <!-- end .qty-cart -->
+
+                                                        <div class="dropdown-option clearfix">
+                                                            <div class="dropdown-details">
+                                                            </div>
+                                                            <!--end .dropdown-details-->
+                                                        </div>
+                                                        <!--end .dropdown-option-->
+                                                    </div>
+                                                    <!-- end .all-details -->
+                                                </div>
+                                                <!-- end .item-list -->
+
+
+
+
+
+                                                <div class="item-list">
+                                                    <div class="all-details">
+                                                        <div class="visible-option">
+                                                            <div class="details">
+                                                                <h6><a >72. Sashimi de salmon 7</a>
+                                                                </h6>
+                                                                <p class="for-list">(7 cortes)</p>
+                                                            </div>
+
+                                                            <div class="qty-cart text-center clearfix">
+                                                                
+                                                            </div>
+                                                            <!-- end .price-option-->
+                                                            <div class="price-option fl">
+                                                                <h4>$ 6.000</h4>
+                                                                <h4><div style="color:#FF5733;"> -50%</div></h4>
+                                                                <h5>$ 3.000</h5>                                                               
+                                                            </div>
+                                                        </div>
+                                                        <!-- end .qty-cart -->
+
+                                                        <div class="dropdown-option clearfix">
+                                                            <div class="dropdown-details">
+
+                                                            </div>
+                                                            <!--end .dropdown-details-->
+                                                        </div>
+                                                        <!--end .dropdown-option-->
+                                                    </div>
+                                                    <!-- end .all-details -->
+                                                </div>
+                                                <!-- end .item-list -->
+
+
+                                                <div class="item-list">
+                                                    <div class="all-details">
+                                                        <div class="visible-option">
+                                                            <div class="details">
+                                                                <h6><a >73. Sashimi de salmon 14</a>
+                                                                </h6>
+                                                                <p class="for-list">(14 cortes)</p>
+                                                            </div>
+
+                                                            <div class="qty-cart text-center clearfix">
+                                                                
+                                                            </div>
+                                                            <!-- end .price-option-->
+                                                            <div class="price-option fl">
+                                                                <h4>$ 10.000</h4>
+                                                                <h4><div style="color:#FF5733;"> -50%</div></h4>
+                                                                <h5>$ 5.000</h5>                                                               
+                                                            </div>
+                                                        </div>
+                                                        <!-- end .qty-cart -->
+
+                                                        <div class="dropdown-option clearfix">
+                                                            <div class="dropdown-details">
+
+                                                            </div>
+                                                            <!--end .dropdown-details-->
+                                                        </div>
+                                                        <!--end .dropdown-option-->
+                                                    </div>
+                                                    <!-- end .all-details -->
+                                                </div>
+                                                <!-- end .item-list -->
+
+
+
+
+
+
+
+                                                <div class="item-list">
+                                                    <div class="all-details">
+                                                        <div class="visible-option">
+                                                            <div class="details">
+                                                                <h6><a >74. Pollo furay</a>
+                                                                </h6>
+
+                                                                <p class="for-list">(5 cortes)</p>
+                                                            </div>
+
+                                                            <div class="qty-cart text-center clearfix">
+                                                                
+                                                            </div>
+                                                            <!-- end .price-option-->
+                                                            <div class="price-option fl">
+                                                                <h4>$ 4.000</h4>
+                                                                <h4><div style="color:#FF5733;"> -50%</div></h4>
+                                                                <h5>$ 2.000</h5>                                                               
+                                                            </div>
+                                                        </div> <!-- end .vsible-option -->
 
                                                         <div class="dropdown-option clearfix">
                                                             <div class="dropdown-details">
@@ -207,18 +316,19 @@
                                                     <div class="all-details">
                                                         <div class="visible-option">
                                                             <div class="details">
-                                                                <h6><a >52. Sake Llin</a>
+                                                                <h6><a >75. Gyosas de cerdo</a>
                                                                 </h6>
-                                                                <p class="for-list">(cebollín, palta y queso crema)</p>
+                                                                <p class="for-list">(5 unidades)</p>
                                                             </div>
+
                                                             <div class="qty-cart text-center clearfix">
                                                                 
                                                             </div>
                                                             <!-- end .price-option-->
                                                             <div class="price-option fl">
-                                                                <h4>$ 7.400</h4>
+                                                                <h4>$ 4.000</h4>
                                                                 <h4><div style="color:#FF5733;"> -50%</div></h4>
-                                                                <h5>$ 3.700</h5>                                                               
+                                                                <h5>$ 2.000</h5>                                                               
                                                             </div>
                                                         </div>
                                                         <!-- end .qty-cart -->
@@ -234,41 +344,6 @@
                                                     <!-- end .all-details -->
                                                 </div>
                                                 <!-- end .item-list -->
-
-
-                                                <div class="item-list">
-                                                    <div class="all-details">
-                                                        <div class="visible-option">
-                                                            <div class="details">
-                                                                <h6><a >47. Sake Chicken</a>
-                                                                </h6>
-                                                                <p class="for-list">(pollo y extra palta)</p>
-                                                            </div>
-                                                            <div class="qty-cart text-center clearfix">
-                                                                
-                                                            </div>
-                                                            <!-- end .price-option-->
-                                                            <div class="price-option fl">
-                                                                <h4>$ 7.400</h4>
-                                                                <h4><div style="color:#FF5733;"> -50%</div></h4>
-                                                                <h5>$ 3.700</h5>                                                               
-                                                            </div>
-                                                        </div>
-                                                        <!-- end .qty-cart -->
-
-                                                        <div class="dropdown-option clearfix">
-                                                            <div class="dropdown-details">
-
-                                                            </div>
-                                                            <!--end .dropdown-details-->
-                                                        </div>
-                                                        <!--end .dropdown-option-->
-                                                    </div>
-                                                    <!-- end .all-details -->
-                                                </div>
-                                                <!-- end .item-list -->
-
-
 
 
 
@@ -288,17 +363,18 @@
                                                     <div class="all-details">
                                                         <div class="visible-option">
                                                             <div class="details">
-                                                                <h6><a >48. Sake Ebi</a> </h6>
-                                                                <p class="for-list">(camarón, queso crema y palta)</p>
+                                                                <h6><a >76. Gyosas de Camaron</a> </h6>
+                                                                <p class="for-list">(5 unidades)</p>
                                                             </div>
+
                                                             <div class="qty-cart text-center clearfix">
                                                                 
                                                             </div>
                                                             <!-- end .price-option-->
                                                             <div class="price-option fl">
-                                                                <h4>$ 7.400</h4>
+                                                                <h4>$ 5.000</h4>
                                                                 <h4><div style="color:#FF5733;"> -50%</div></h4>
-                                                                <h5>$ 3.700</h5>                                                               
+                                                                <h5>$ 2.500</h5>                                                               
                                                             </div>
                                                         </div> <!-- end .vsible-option -->
 
@@ -327,17 +403,17 @@
                                                     <div class="all-details">
                                                         <div class="visible-option">
                                                             <div class="details">
-                                                                <h6><a >49. Sake Chicken Cheese</a>															</h6>
-                                                                <p class="for-list">(pollo, palta y queso crema)</p>
+                                                                <h6><a >77. Calamar furay</a>															</h6>
+                                                                <p class="for-list">(5 unidades)</p>
                                                             </div>
                                                             <div class="qty-cart text-center clearfix">
                                                                 
                                                             </div>
                                                             <!-- end .price-option-->
                                                             <div class="price-option fl">
-                                                                <h4>$ 7.400</h4>
+                                                                <h4>$ 4.000</h4>
                                                                 <h4><div style="color:#FF5733;"> -50%</div></h4>
-                                                                <h5>$ 3.700</h5>                                                               
+                                                                <h5>$ 2.000</h5>                                                               
                                                             </div>
                                                         </div> <!-- end .vsible-option -->
 
@@ -360,17 +436,17 @@
                                                     <div class="all-details">
                                                         <div class="visible-option">
                                                             <div class="details">
-                                                                <h6><a >50. Sake Ebi Tempura Llin</a>															</h6>
-                                                                <p class="for-list">(camarón tempura, palta y cebollín)</p>
+                                                                <h6><a >78. Bolita de salmon crocante</a>															</h6>
+                                                                <p class="for-list">(5 unidades)</p>
                                                             </div>
                                                             <div class="qty-cart text-center clearfix">
                                                                 
                                                             </div>
                                                             <!-- end .price-option-->
                                                             <div class="price-option fl">
-                                                                <h4>$ 7.400</h4>
+                                                                <h4>$ 4.000</h4>
                                                                 <h4><div style="color:#FF5733;"> -50%</div></h4>
-                                                                <h5>$ 3.700</h5>                                                               
+                                                                <h5>$ 2.000</h5>                                                               
                                                             </div>
                                                         </div> <!-- end .vsible-option -->
 
@@ -385,13 +461,6 @@
                                                     <!-- end .all-details -->
                                                 </div>
                                                 <!-- end .item-list -->
-
-
-
-
-
-
-
 
 
 
@@ -401,17 +470,17 @@
                                                     <div class="all-details">
                                                         <div class="visible-option">
                                                             <div class="details">
-                                                                <h6><a >52. Sake Cheese</a>															</h6>
-                                                                <p class="for-list">(Salmón palta y queso crema) envuelto en salmón</p>
+                                                                <h6><a >79. Camaron ecuatoriano furai</a>															</h6>
+                                                                <p class="for-list">(5 unidades)</p>
                                                             </div>
                                                             <div class="qty-cart text-center clearfix">
                                                                 
                                                             </div>
                                                             <!-- end .price-option-->
                                                             <div class="price-option fl">
-                                                                <h4>$ 7.400</h4>
+                                                                <h4>$ 6.000</h4>
                                                                 <h4><div style="color:#FF5733;"> -50%</div></h4>
-                                                                <h5>$ 3.700</h5>                                                               
+                                                                <h5>$ 3.000</h5>                                                               
                                                             </div>
                                                         </div> <!-- end .vsible-option -->
 
@@ -426,6 +495,42 @@
                                                     <!-- end .all-details -->
                                                 </div>
                                                 <!-- end .item-list -->
+
+
+
+
+
+                                                <div class="item-list">
+                                                    <div class="all-details">
+                                                        <div class="visible-option">
+                                                            <div class="details">
+                                                                <h6><a >80. Gohan del chef</a>															</h6>
+                                                                <p class="for-list">(Base de arroz frio con verdurasy mariscos o carne)</p>
+                                                            </div>
+                                                            <div class="qty-cart text-center clearfix">
+                                                                
+                                                            </div>
+                                                            <!-- end .price-option-->
+                                                            <div class="price-option fl">
+                                                                <h4>$ 7.600</h4>
+                                                                <h4><div style="color:#FF5733;"> -50%</div></h4>
+                                                                <h5>$ 3.800</h5>                                                               
+                                                            </div>
+                                                        </div> <!-- end .vsible-option -->
+
+                                                        <div class="dropdown-option clearfix">
+                                                            <div class="dropdown-details">
+
+                                                            </div>
+                                                            <!--end .dropdown-details-->
+                                                        </div>
+                                                        <!--end .dropdown-option-->
+                                                    </div>
+                                                    <!-- end .all-details -->
+                                                </div>
+                                                <!-- end .item-list -->
+
+
 
 
 
@@ -435,7 +540,8 @@
                                             <div class="hidden-xs hidden-sm col-md-4">
                                                 <?php include("include/carrodecompras.php") ?>
 
-                                            </div>                                              
+                                            </div>                                               
+                                            
                                         </div> <!-- end .tab-pane -->
                                     </div> <!-- end .tab-content -->
 
@@ -494,7 +600,7 @@
                                         </span>
                                     </h5>
                                     <p>Santiago Centro <br>
-                                      <!--            <p>Próximamente ampliaremos el area de cobertura<br>   -->
+                                     <!--            <p>Próximamente ampliaremos el area de cobertura<br>   -->
                                     </p>
                                 </div>
 
